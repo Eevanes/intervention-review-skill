@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "project": {
+    "name": "",
+    "goal": "",
+    "timezone": "Asia/Shanghai"
+  },
+  "sources": [],
+  "review": {
+    "default_recheck_hours": 24,
+    "max_next_steps": 2
+  },
+  "notifications": {
+    "decisions": ["intervene_now", "offer_support", "gather_evidence"],
+    "gather_evidence_requires_time_cost": true,
+    "repeat_only_on_actionable_change": true
+  },
+  "delivery": {
+    "mode": "draft_only"
+  }
+}

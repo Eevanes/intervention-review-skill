@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "project": {
+    "name": "示例学习项目",
+    "goal": "在约定时间内完成可演示的团队作品",
+    "timezone": "Asia/Shanghai"
+  },
+  "sources": [
+    {
+      "name": "团队会议纪要",
+      "location": "./project-notes/meetings",
+      "enabled": true
+    }
+  ],
+  "review": {
+    "default_recheck_hours": 12,
+    "max_next_steps": 2
+  }
+}
